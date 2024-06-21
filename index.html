@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live User Filter</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/main.js" defer></script>
 </head>
 <body>
-    
+    <!-- Aqui haremos la parte del header, donde ira como tal el buscador -->
+    <div class="header__container">
+        <header class="header">
+            <h1 class="title">Live User Filter</h1>
+            <p class="text_title">Search by name and/or location</p>
+            <input type="text" id="filter" placeholder="Search...">
+        </header>
+
+
+        <!-- Ahora haremos los resultados, o los usuarios... -->
+         <ul id="result" class="user-list">
+            <li>
+                <!-- Foto del usuario 
+                 <div class="user-info">
+                    <h4>Nombre Apellido</h4>
+                    <p>Localización_ciudad Localización_pais</p>-->
+            </li>
+         </ul>
+    </div>
 </body>
 </html>
